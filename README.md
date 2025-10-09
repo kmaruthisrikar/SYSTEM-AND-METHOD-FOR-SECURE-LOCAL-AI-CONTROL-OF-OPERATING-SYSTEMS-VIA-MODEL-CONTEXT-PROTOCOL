@@ -44,36 +44,36 @@ This project implements a **local Model Context Protocol (MCP) server** that ena
 
 ### Use Cases
 
-- 🔒 **Security Testing** - Automated penetration testing workflows
-- 🖥️ **System Administration** - Natural language system management
-- 📊 **DevOps Automation** - Infrastructure control and monitoring
-- 🔬 **Research & Education** - Learn cybersecurity in controlled environments
-- 🏢 **Enterprise IT** - Compliant, air-gapped AI assistance
+-  **Security Testing** - Automated penetration testing workflows
+-  **System Administration** - Natural language system management
+-  **DevOps Automation** - Infrastructure control and monitoring
+-  **Research & Education** - Learn cybersecurity in controlled environments
+-  **Enterprise IT** - Compliant, air-gapped AI assistance
 
 ---
 
 ## ✨ Key Features
 
-### 🔐 Security First
+###  Security First
 - **Input sanitization** - Prevents command injection attacks
 - **Privilege control** - Sandboxed execution with minimal permissions
 - **Timeout management** - Prevents runaway processes
 - **Audit logging** - Complete command history tracking
 - **Character filtering** - Blocks shell metacharacters (`;`, `&`, `|`, etc.)
 
-### 🚀 Performance
+###  Performance
 - **3-10x faster** than cloud-based solutions (no network latency)
 - **Minimal footprint** - ~50-100MB memory usage
 - **Efficient IPC** - STDIO-based communication
 - **Concurrent execution** - Multiple commands supported
 
-### 🛠️ Flexibility
+###  Flexibility
 - **Any command** - Execute shell, PowerShell, or system tools
 - **Custom tools** - Easy plugin development
 - **Multi-platform** - Consistent API across OS types
 - **Hot-reload** - Update tools without restart
 
-### 🔒 Privacy & Compliance
+###  Privacy & Compliance
 - **GDPR compliant** - No data leaves your system
 - **HIPAA ready** - Local processing of sensitive data
 - **Air-gap compatible** - Works in isolated networks
@@ -81,7 +81,7 @@ This project implements a **local Model Context Protocol (MCP) server** that ena
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────┐
@@ -1031,15 +1031,6 @@ environment:
   - LOG_LEVEL=DEBUG
 ```
 
-### Getting Help
-
-If you're still stuck:
-
-1. Check [GitHub Issues](https://github.com/yourusername/mcp-os-control/issues)
-2. Read the [FAQ](https://github.com/yourusername/mcp-os-control/wiki/FAQ)
-3. Join our [Discord Community](https://discord.gg/your-invite)
-4. Review [Claude MCP Documentation](https://docs.claude.ai/mcp)
-
 ---
 
 ## 🤝 Contributing
@@ -1142,15 +1133,6 @@ If you use this project in your research or work, please cite:
 
 ---
 
-## 📞 Contact
-
-- **GitHub Issues:** [Report bugs](https://github.com/yourusername/mcp-os-control/issues)
-- **Email:** your.email@example.com
-- **Twitter:** [@yourusername](https://twitter.com/yourusername)
-- **Discord:** [Join our server](https://discord.gg/your-invite)
-
----
-
 ## 🗺️ Roadmap
 
 ### Version 1.1 (Q2 2025)
@@ -1173,22 +1155,8 @@ If you use this project in your research or work, please cite:
 
 ---
 
-## 📊 Project Stats
-
-![GitHub stars](https://img.shields.io/github/stars/yourusername/mcp-os-control?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/mcp-os-control?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/mcp-os-control)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/mcp-os-control)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/mcp-os-control)
-
----
-
 <div align="center">
 
 **⭐ Star this repo if you find it useful! ⭐**
 
 Made with ❤️ by the open source community
-
-[Report Bug](https://github.com/yourusername/mcp-os-control/issues) · [Request Feature](https://github.com/yourusername/mcp-os-control/issues) · [Documentation](https://github.com/yourusername/mcp-os-control/wiki)
-
-</div>
